@@ -1,4 +1,4 @@
-# chisquare only have right tailed
+# chisquare test only have right tailed
 
 # อัตราส่วน
 
