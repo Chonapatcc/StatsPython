@@ -28,7 +28,7 @@ right_crit = .isf(alpha/2)
 
 2*.sf(abs(_cal)) = p_val   (Z,t)
 
-2*min(.cdf(X2_cal),.sf(X2_cal)) = p_val  (X2)
+2*min(.cdf(X2_cal),.sf(X2_cal)) = p_val  (X2) (ทบทวนแต่ไม่มีใช้ในเรื่องนี้)
 
 ```
 
@@ -46,7 +46,7 @@ Z_cal ,p_val = ztest(x1=
                     value =  (ค่าเฉลี่ยโจทย์)
                     alternative = (larger , smaller , twotailed) ดูในเอกสารอีกที
                         )
-t , X2 คล้ายๆกัน ดูในเอกสารอีกที
+t  คล้ายๆกัน ดูในเอกสารอีกที
             
 ```
 
