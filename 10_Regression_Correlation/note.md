@@ -21,6 +21,7 @@ b0=0  , y at origin
 b0<0  , y lower than origin
 b0>0  , y upper than origin
 
+b1=0  , x และ y ไม่มีความสัมพันธ์กัน
 b1>0  , same direction
 b1<0  , dif  direction
 
@@ -31,4 +32,17 @@ lr = sm.OLS(y,x_wconst).fit()
 print(lr.summary())
 
 ```
+
+# การทดสอบสมมติฐานค่า B1 โดยการวิเคราะห์ความแปรปรวน
+```
+H0 : B1  = 0  อิสระ
+H1 : B1 != 0  ไม่อิสระ
+
+F = MSR/MSE
+
+MSR = SSR/1 
+MSE = SSE/(n-2)
+
+เป็นright tailed **
+
 
