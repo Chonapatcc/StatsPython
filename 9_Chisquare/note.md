@@ -1,3 +1,4 @@
+#คุณภาพ
 # chisquare test only have right tailed
 
 # อัตราส่วน
